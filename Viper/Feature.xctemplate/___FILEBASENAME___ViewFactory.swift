@@ -13,8 +13,8 @@ class ___VARIABLE_featureName___ViewFactory {
         let interactor = ___VARIABLE_featureName___Interactor()
         let viewController = ___VARIABLE_featureName___ViewController()
         let wireframe = ___VARIABLE_featureName___Wireframe(viewController: viewController)
-        let presenter = ___VARIABLE_featureName___Presenter(interactor: interactor, view: viewController, wireframe: wireframe)
-        viewController.inject(with: presenter)
+        let presenter = ___VARIABLE_featureName___Presenter(view: viewController, interactor: interactor, wireframe: wireframe)
+        viewController.inject(presenter: presenter)
 
         return viewController
     }
