@@ -9,5 +9,8 @@
 import UIKit
 
 class ___VARIABLE_featureName___Wireframe: ___VARIABLE_featureName___WireframeType {
-
+    weak var viewController: UIViewController?
+    init(viewController: UIViewController) {
+        self.viewController = viewController
+    }
 }
