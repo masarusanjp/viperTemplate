@@ -10,8 +10,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class ___VARIABLE_featureName___ViewController: UIViewController, ___VARIABLE_featureName___ViewType
-{
+class ___VARIABLE_featureName___ViewController: UIViewController, ___VARIABLE_featureName___ViewType {
     private var presenter: ___VARIABLE_featureName___PresenterType!
     private let disposeBag = DisposeBag()
 
