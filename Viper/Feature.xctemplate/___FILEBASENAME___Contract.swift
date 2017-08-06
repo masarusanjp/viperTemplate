@@ -10,18 +10,18 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-protocol __VARIABLE_featureName__ViewType: class {
-    func inject(presenter: __VARIABLE_featureName__PresenterType)
+protocol ___VARIABLE_featureName___ViewType: class {
+    func inject(presenter: ___VARIABLE_featureName___PresenterType)
 }
 
-protocol __VARIABLE_featureName__InteractorType {
-
-}
-
-protocol __VARIABLE_featureName__PresenterType {
+protocol ___VARIABLE_featureName___InteractorType {
 
 }
 
-protocol __VARIABLE_featureName__WireframeType {
+protocol ___VARIABLE_featureName___PresenterType {
+
+}
+
+protocol ___VARIABLE_featureName___WireframeType {
 
 }
